@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="https://media.vogue.co.uk/photos/6053836e107e7ce55db44cf5/16:9/w_1280,c_limit/meta-site-image.png"
+        alt=""
+      />
+      <button id="open-add-form">Добавить</button>
+    </header>
+    <div class="modal" id="add-modal">
+      <div class="modal-inner" id="add-modal-inner">
+        <h1>Форма добавления</h1>
+        <input placeholder="Вставьте ссылку" type="text" id="add-img" />
+        <input
+          placeholder="Введите описание"
+          type="text"
+          id="add-description"
+        />
+        <input
+          placeholder="Введите цену без скидки"
+          type="text"
+          id="add-price-1"
+        />
+        <input
+          placeholder="Введите цену со скидкой"
+          type="text"
+          id="add-price-2"
+        />
+        <button id="add-btn">Добавить продукт</button>
+      </div>
+    </div>
+    <div id="products">
+      <div class="card">
+        <img
+          src="https://danielhazard.netlify.app/assets/HomePage/carousel-img_4.jpg"
+          alt=""
+        />
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <div class="card-price">
+          <p>20000 сом</p>
+          <p>13000 сом</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
