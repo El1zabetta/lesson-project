@@ -44,6 +44,7 @@
   background-color: black;
   padding: 60px 40px;
   border: none;
+  position: relative;
 }
 
 .modal-inner input {
@@ -110,4 +111,12 @@
 
 .card:hover {
   box-shadow: 5px 5px 30px #9b9b9b95;
+}
+
+#close-add-modal {
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
